@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Hello world!' 
+                sh "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JenkinsPipelinetest\\test.sh"
             }
         }
     }
