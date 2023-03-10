@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                sh "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JenkinsPipelinetest\\test.sh"
+                sh "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\SCMPipeline\\JenkinsPipelinetest\\test.sh"
             }
         }
     }
